@@ -1,0 +1,283 @@
+/*
+primary color:
+hsl(322, 100%, 66%)
+
+Very Pale Cyan: 
+hsl(193, 100%, 96%)
+
+Very Dark Cyan: 
+hsl(192, 100%, 9%)
+
+Grayish Blue: 
+hsl(208, 11%, 55%)
+
+Body font-size: 18px;
+Headings: weights 600 - Poppins;
+Body: weights 400, 700 - Open Sans;
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/*Header begins here*/
+body{
+	font-family: 'Open Sans', sans-serif;	
+}
+
+#header{
+	padding-top: 3rem;
+	background: url(images/bg-hero-desktop.svg);
+	background-color: hsl(193, 100%, 96%);
+	background-repeat: no-repeat;
+	background-position: cover;
+}
+
+nav{
+	margin-bottom: 5rem;
+}
+
+#logo{
+	width: 11rem;
+	padding-top: 0.8rem;
+}
+
+button.btn-primary{
+	float: right;
+	padding: 1rem;
+	border-radius: 2rem;
+	width: 12rem;
+	color: black;
+	background-color: white;
+	border-style: none;
+	font-size: 13px;
+	font-weight: 700;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.row{
+	padding-bottom: 3rem;
+}
+
+#intro{
+	margin-top: 5rem;
+	padding-right: 2rem;
+}
+
+h1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+	line-height: 1.5;
+}
+
+.intro-tekst{
+	font-size: 14px;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	margin-top: 1rem;
+}
+
+button.btn-secondary{
+	background-color: hsl(322, 100%, 66%);
+	border-style: none;
+	color: white;
+	border-radius: 2rem;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	font-size: 13px;
+	font-weight: 700;
+	padding: 1rem;
+	width: 16rem;
+	margin-top: 1rem;
+}
+
+#img-mockup{
+	padding-left: 3rem;
+}
+
+#mockup{
+	width: 100%;
+}
+
+/*
+Body begins here 
+First card block
+*/
+div.container1{
+	margin-top: 8rem;
+	margin-bottom: 2.5rem;
+}
+
+/*Is the same for every card*/
+h3{
+	font-size: 25px;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+}
+
+.card{
+	border-radius: 15px;
+	border-style: none;
+	box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2);
+	height: 420px;
+}
+
+.row1, .row2, .row3{
+	margin: 3rem;
+}
+
+div.col-md-6{
+	margin: 6rem 0 0 4rem;
+}
+
+.card-text{
+	color: hsl(208, 11%, 55%);
+	font-size: 16px;
+	padding-right: 3rem;
+}
+
+.img-card{
+	width: 25rem;
+}
+
+/*
+Second card block
+*/
+div.container2{
+	margin-bottom: 2.5rem;
+}
+
+div.conversation{
+	margin: 6rem 0 0 10rem;
+}
+
+/*
+Third card block
+*/
+.container3{
+	margin-bottom: 10rem;
+}
+
+/*
+Closing block - section1
+*/
+.section1{
+	background-image: linear-gradient(to bottom, white 50%, hsl(192, 100%, 9%) 50%);
+}
+
+div.final-card{
+	padding: 4rem;
+	height: 220px;
+}
+
+h2{
+	font-size: 28px;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+button.final-button{
+	margin:0 auto;
+    display:block;
+    width: 20rem;
+
+}
+/*
+Footer begins here
+*/
+footer{
+	background-color: hsl(192, 100%, 9%);
+	color: white;
+}
+
+#footer-logo{
+	width: 11rem;
+	padding-top: 0.8rem;
+	filter: brightness(0) invert(1);
+}
+
+.footer-text{
+	list-style-type: none;
+	font-size: 14px;
+	margin-top: 2rem;
+}
+
+li{
+	margin-bottom: 1rem;
+}
+
+.footer-icon{
+	padding-right: 1rem;
+	height: 1rem;
+}
+
+.fab{
+	color: white;
+	margin-right: 1rem;
+	font-size: 1.3rem;
+	margin-top: 2rem;
+}
+
+.copyright{
+	text-align: right;
+	margin: 0 4rem 0 0;
+	font-size: 10px;
+	padding-bottom: 2rem;
+}
+
+@media (max-width: 375px){
+	nav{
+		margin: 0;
+	}
+
+	#logo{
+		width: 7rem;
+		padding: 0;
+	}
+
+	button.btn-primary{
+		padding: 0.5rem;
+		width: 7rem;
+		float: right;
+		font-size: 10px;
+	}
+
+	.row{
+		width: 100%;
+		margin-left: 0;
+	}
+
+	#intro{
+		padding: 0;
+		text-align: center;
+	}
+
+	h1{
+		font-size: 24px;
+	}
+
+	#img-mockup{
+		padding: 0;
+		margin: 3rem 0.7rem 0 0.7rem;
+	}
+
+	.img-card{
+		width: 10rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
