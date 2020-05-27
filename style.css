@@ -205,6 +205,14 @@ footer{
 	margin-top: 2rem;
 }
 
+b{
+	font-weight: normal;
+}
+
+.em{
+	margin-left: 1.9rem;
+}
+
 li{
 	margin-bottom: 1rem;
 }
@@ -222,10 +230,8 @@ li{
 }
 
 .copyright{
-	text-align: right;
-	margin: 0 4rem 0 0;
 	font-size: 10px;
-	padding-bottom: 2rem;
+	margin-top: 10rem;
 }
 
 @media (max-width: 375px){
@@ -264,8 +270,75 @@ li{
 		margin: 3rem 0.7rem 0 0.7rem;
 	}
 
+	div.container1{
+		margin-top: 4rem;
+	}
+
+	.row1, .row2, .row3{
+		margin: 0;
+	}
+
+	div.col-md-6{
+		margin: 1rem 0;
+		text-align: center;
+		order: 2;
+	}
+
+	.card-title{
+		font-size: 20px;
+	}
+
+	.card-text{
+		font-size: 15px;
+		padding: 0 0.9rem 0 0.9rem;
+	}
+
+	div.col-md-4{
+		text-align: center;
+		order: 1;
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+	}
+
 	.img-card{
-		width: 10rem;
+		width: 14rem;
+	}
+
+	div.container3{
+		margin-bottom: 8rem;
+	}
+
+	.col-md-7{
+		padding: 0;
+	}
+
+	div.final-card{
+		padding: 2.5rem 1.2rem;
+		height: 180px;
+	}
+
+	h2{
+		font-size: 18px;
+	}
+
+	button.final-button{
+		width: 15rem;
+	}
+
+	ul{
+		padding: 0;
+	}
+
+	ul.last{
+		margin-top: 0;
+	}
+
+	div.icons{
+		text-align: center;
+	}
+
+	.copyright{
+		margin-top: 1.5rem;
 	}
 }
 
