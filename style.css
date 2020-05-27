@@ -234,7 +234,9 @@ li{
 	margin-top: 10rem;
 }
 
-@media (max-width: 375px){
+/*Mobile */
+@media only screen and (min-device-width: 375px)
+and (max-device-width: 812px){
 	nav{
 		margin: 0;
 	}
@@ -342,15 +344,28 @@ li{
 	}
 }
 
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) {
+    	#logo{
+    		width: 8rem;
+    	}
 
+    	button.btn-primary{
+    		width: 10rem;
+    	}
 
+    	#intro{
+    		text-align: center;
+    	}
 
+    	h1 {
+    		font-size: 30px;
+    	}
 
-
-
-
-
-
-
-
+    	#mockup{
+    		padding: 2rem 1rem 1rem 1rem;
+    	}
+    }
 
